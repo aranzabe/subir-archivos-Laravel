@@ -97,7 +97,7 @@ composer require cloudinary-labs/cloudinary-laravel
 php artisan cloudinary:install 
 ```
 
-1. Configurar los datos de acceso en `.env`
+2. Configurar los datos de acceso en `.env`
 
 ```bash
 CLOUDINARY_KEY=tu_api_key
@@ -105,7 +105,7 @@ CLOUDINARY_SECRET=tu_api_secret
 CLOUDINARY_CLOUD_NAME=tu_cloud_name
 ```
 
-1. Configurar disco en `config/filesystems.php`:
+3. Configurar disco en `config/filesystems.php`:
 
 ```bash
 'cloudinary' => [
