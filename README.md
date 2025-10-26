@@ -168,3 +168,13 @@ return response()->json(['url' => $url], 200);
 5. **Separar la lógica** si quieres subir a diferentes discos (local y cloud).
 
 ---
+
+##  Probando...
+
+Encontrarás una carpeta cliente en el proyecto. Abre esa carpeta en otro proyecto de VS Code y levántalo con:
+```php
+php -S 127.0.0.1:9090
+```
+Despplegará un formulario que te permitirá subir archivos y ver los resultados en local y Cloudinary. En ambos casos el servicio te devolverá la url pública desde la cual puedes acceder al recurso.
+
+---
